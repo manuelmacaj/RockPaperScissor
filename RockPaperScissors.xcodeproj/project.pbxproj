@@ -13,6 +13,10 @@
 		41BBC7032629E5BE00025159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BBC7022629E5BE00025159 /* Assets.xcassets */; };
 		41BBC7062629E5BE00025159 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BBC7052629E5BE00025159 /* Preview Assets.xcassets */; };
 		41BBC7092629E5BE00025159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BBC7072629E5BE00025159 /* LaunchScreen.storyboard */; };
+		41E7C5E128F62341009A67EC /* sconfitta.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7C5DD28F62340009A67EC /* sconfitta.png */; };
+		41E7C5E228F62341009A67EC /* pareggio.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7C5DE28F62341009A67EC /* pareggio.png */; };
+		41E7C5E328F62341009A67EC /* schermata.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7C5DF28F62341009A67EC /* schermata.png */; };
+		41E7C5E428F62341009A67EC /* vittoria.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7C5E028F62341009A67EC /* vittoria.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,11 @@
 		41BBC7052629E5BE00025159 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41BBC7082629E5BE00025159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41BBC70A2629E5BE00025159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E7C5D228F620AE009A67EC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41E7C5DD28F62340009A67EC /* sconfitta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sconfitta.png; sourceTree = "<group>"; };
+		41E7C5DE28F62341009A67EC /* pareggio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pareggio.png; sourceTree = "<group>"; };
+		41E7C5DF28F62341009A67EC /* schermata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schermata.png; sourceTree = "<group>"; };
+		41E7C5E028F62341009A67EC /* vittoria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vittoria.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +49,7 @@
 		41BBC6F02629E5BA00025159 = {
 			isa = PBXGroup;
 			children = (
+				41E7C5D228F620AE009A67EC /* README.md */,
 				41BBC6FB2629E5BA00025159 /* RockPaperScissors */,
 				41BBC6FA2629E5BA00025159 /* Products */,
 			);
@@ -56,6 +66,7 @@
 		41BBC6FB2629E5BA00025159 /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
+				41E7C5D328F62241009A67EC /* Media */,
 				41BBC6FC2629E5BA00025159 /* AppDelegate.swift */,
 				41BBC6FE2629E5BA00025159 /* SceneDelegate.swift */,
 				41BBC7002629E5BA00025159 /* ContentView.swift */,
@@ -73,6 +84,25 @@
 				41BBC7052629E5BE00025159 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41E7C5D328F62241009A67EC /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				41E7C5D428F622AF009A67EC /* READMEIMAGE */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		41E7C5D428F622AF009A67EC /* READMEIMAGE */ = {
+			isa = PBXGroup;
+			children = (
+				41E7C5DE28F62341009A67EC /* pareggio.png */,
+				41E7C5DF28F62341009A67EC /* schermata.png */,
+				41E7C5DD28F62340009A67EC /* sconfitta.png */,
+				41E7C5E028F62341009A67EC /* vittoria.png */,
+			);
+			path = READMEIMAGE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +163,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				41BBC7092629E5BE00025159 /* LaunchScreen.storyboard in Resources */,
+				41E7C5E228F62341009A67EC /* pareggio.png in Resources */,
+				41E7C5E428F62341009A67EC /* vittoria.png in Resources */,
+				41E7C5E328F62341009A67EC /* schermata.png in Resources */,
 				41BBC7062629E5BE00025159 /* Preview Assets.xcassets in Resources */,
 				41BBC7032629E5BE00025159 /* Assets.xcassets in Resources */,
+				41E7C5E128F62341009A67EC /* sconfitta.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

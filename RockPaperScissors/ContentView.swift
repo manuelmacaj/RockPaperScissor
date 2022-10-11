@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    //MARK:- Proprieties
+    //MARK: -Proprieties
     
     private var rockPaperScissor = ["Rock", "Paper", "Scissors"]
     @State private var roundGame = 1
@@ -21,7 +21,7 @@ struct ContentView: View {
     @State private var userWin = 0
     @State private var iaWin = 0
     
-    //MARK:- Body
+    //MARK: -Body
     var body: some View {
         
         NavigationView {
@@ -32,7 +32,7 @@ struct ContentView: View {
                 LinearGradient(gradient: Gradient(colors: [Color("RedColor"), Color("BlueColor"), Color("YellowColor")]), startPoint: .bottom, endPoint: .zero)
                     .edgesIgnoringSafeArea(.all)
                 
-                //MARK:- VStack
+                //MARK: -VStack
                 VStack (alignment: .center, spacing: 10) {
                     
                     //MARK:- if & else
@@ -115,7 +115,7 @@ struct ContentView: View {
     }
     
     
-    //MARK:- Rock paper game func
+    //MARK: -Rock paper game func
     func rockPaperSissiorGame(with userSelect: String) {
         let iaSelect = rockPaperScissor[selectAction]
         
@@ -160,7 +160,7 @@ struct ContentView: View {
         showMessage = true
     }
     
-    //MARK:- Verify round func
+    //MARK: -Verify round func
     func verifyRound() {
         if round == 10 {
             if userWin > iaWin {
@@ -176,7 +176,7 @@ struct ContentView: View {
         }
     }
     
-    //MARK:- New game func
+    //MARK: -New game func
     func newGame() {
         round = 0
         selectAction = Int.random(in: 0 ... 2)
